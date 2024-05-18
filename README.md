@@ -10,31 +10,6 @@ then run the init.py before testing the questions by replacing the hostname , us
 3. Orders: Information about orders made by customers.
 4. OrderItems: Information about items in each order.
 
- Table Structures
-
- Customers
- CustomerID       FirstName         LastName                 Email                                         DateOfBirth 
- 1                  John              Doe                john.doe@example.com                              1985-01-15 
- 2 	 	              Jane 		         Smith 	             jane.smith@example.com                            1990-06-20 
-
-Products
- ProductID 		 ProductName		        Price 
- 1 			         Laptop 		          1000 
- 2		         Smartphone       	     600 
- 3             Headphones              100 
- 
-Orders
-  OrderID 		 CustomerID 		OrderDate  
-    1 			      1		        2023-01-10 
-    2			        2          	2023-01-12 
-
- OrderItems
- OrderItemID 		 OrderID 		 ProductID 		 Quantity 
-        1 			    1   			   1         		1       
-        2           1            3            2      
-        3			      2            2            1   
-        4           2            3            1 
-
 Sample Queries
 1. List all customers.
 2. Find all orders placed in January 2023.
