@@ -7,6 +7,6 @@ join customers c on o.CustomerID = c.CustomerID;
 ```
 <br>
 
-![SqlQueryOutput.png](SqlQueryOutput.png)
+![SqlQueryOutput.png](SQLQueryOutput.png)
 
 ![PythonCodeOutput.png](PythonCodeOutput.png)

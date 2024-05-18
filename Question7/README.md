@@ -15,6 +15,6 @@ SELECT DATE_FORMAT(OrderDate, '%Y-%m') AS OrderMonth,
 ```
 <br>
 
-![SqlQueryOutput.png](SqlQueryOutput.png)
+![SqlQueryOutput.png](SQLQueryOutput.png)
 
 ![PythonCodeOutput.png](PythonCode.png)

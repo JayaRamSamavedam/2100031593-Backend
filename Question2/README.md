@@ -6,6 +6,6 @@ WHERE MONTH(OrderDate)=1 AND YEAR(OrderDate)=2023;
 ```
 <br>
 
-![SqlQueryOutput.png](SqlQueryOutput.png)
+![SqlQueryOutput.png](SQLQueryOutput.png)
 
 ![PythonCodeOutput.png](PythonCodeOutput.png)

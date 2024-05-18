@@ -13,6 +13,6 @@ with data1 as (SELECT c.CustomerID,c.FirstName,c.LastName,c.Email,sum(ot.Quantit
 ```
 <br>
 
-![SqlQueryOutput.png](SqlQueryOutput.png)
+![SqlQueryOutput.png](SQLQueryOutput.png)
 
 ![PythonCodeOutput.png](PythonCodeOutput.png)

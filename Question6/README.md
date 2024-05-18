@@ -10,6 +10,6 @@ with data1 as (select p.ProductID,p.ProductName,sum(ot.Quantity) as numberoforde
 ```
 <br>
 
-![SqlQueryOutput.png](SqlQueryOutput.png)
+![SqlQueryOutput.png](SQLQueryOutput.png)
 
 ![PythonCodeOutput.png](PythonCodeOutput.png)

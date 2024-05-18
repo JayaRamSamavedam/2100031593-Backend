@@ -10,6 +10,6 @@ SELECT c.CustomerID,c.FirstName,c.LastName,c.Email,sum(ot.Quantity*p.Price) as A
 ```
 <br>
 
-![SqlOutput.png](SqlOutput.png)
+![SqlOutput.png](SQLOutput.png)
 
 ![PythonCodeOutput.png](PythonCodeOutput.png)
