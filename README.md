@@ -17,5 +17,5 @@ Sample Queries
 4. List the products purchased in a specific order (e.g., OrderID = 1).
 5. Calculate the total amount spent by each customer.
 6. Find the most popular product (the one that has been ordered the most).
-7. Get the total number of orders and the total sales amount for each month in 2023.
+7. Get the total number of orders and the total sales amount for each month in 2023.<br>
 8.Find customers who have spent more than $1000.
