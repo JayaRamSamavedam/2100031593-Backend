@@ -10,6 +10,6 @@ ORDER BY OrderItems.OrderID ASC;
 ```
 <br>
 
-![SQLQueryOutput.png](SqlQueryOutput.png)
+![SQLQueryOutput.png](SQLQueryOutput.png)
 
 ![PythonCodeOutput.png](PythonCodeOutput.png)
