@@ -7,8 +7,11 @@ conn = mysql.connector.connect(
     database="safertek"
 )
 cursor = conn.cursor()
-cursor.execute("""SELECT * FROM Orders
-WHERE MONTH(OrderDate)=1 AND YEAR(OrderDate)=2023;""")
+cursor.execute("""SELECT OrderItems.OrderID,ProductName,OrderItems.Quantity,
+(Price*OrderItems.Quantity) as OrderPrice
+FROM OrderItems
+JOIN Products ON OrderItems.ProductID = Products.ProductID
+ORDER BY OrderItems.OrderID ASC;""")
 customers = cursor.fetchall()
 
 for customer in customers:
